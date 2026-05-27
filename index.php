@@ -19,21 +19,28 @@
     </style>
   </head>
   <body>
-    <header class="header">
-      <div class="name">James Karl Silpao</div>
-      <div class="nav-links">
-        <nav>
-            <a href="#">Home</a>
-            <a href="#projects-section">Projects</a>
-            <a href="#skills-section">Skills</a>
-            <a href="#contact-section">Contact</a>
-        </nav>
-      </div>
-      <input type="checkbox" id="dark-mode-toggle" />
-      <label for="dark-mode-toggle" class="toggle"></label>
-    </header>
+    <div class="header-holder">
+        <header class="header">
+            <div class="name">James Karl Silpao</div>
+            <div class="nav-links">
+                <nav>
+                    <a href="#">Home</a>
+                    <a href="#projects-section">Projects</a>
+                    <a href="#skills-section">Skills</a>
+                    <a href="#contact-section">Contact</a>
+                </nav>
+            </div>
+            <input type="checkbox" id="dark-mode-toggle" />
+            <label for="dark-mode-toggle" class="toggle"></label>
+        </header>
+    </div>
 
     <div class="hero-container">
+
+    <!-- Decorative Background Shapes -->
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+    <div class="bg-shape shape-3"></div>
         <section class="hero">
             <div class="content" data-aos="fade-up">
                 <p style='background: var(--btn-bg); width: fit-content; color: var(--btn-text); padding: 10px 20px; border-radius: 8px;'>Hello There!</p>
@@ -41,11 +48,11 @@
                 <p>
                 A passionate web developer creating beautiful and functional websites and also a Business Analyst that loves turning data into actionable insights.
                 </p>
-                <a class="btn" href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon" title="LinkedIn">
+                <a class="btn" href="https://www.linkedin.com/in/jameskarlsilpao/" target="_blank" rel="noopener noreferrer" class="social-icon" title="LinkedIn">
                     <i class="fab fa-linkedin-in"></i>
                 </a>
 
-                <a class="btn" href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon" title="GitHub">
+                <a class="btn" href="https://github.com/jaems483" target="_blank" rel="noopener noreferrer" class="social-icon" title="GitHub">
                 <i class="fab fa-github"></i>
                 </a>
             </div>
@@ -58,18 +65,64 @@
     <section class="projects-section" id='projects-section' data-aos="fade-up">
         <div class="projects-header">
             <h2>Featured Projects</h2>
-            <p>Crafted solutions showcasing expertise in modern web development</p>
+            <p>Crafted solutions showcasing expertise in data analysis and modern web development</p>
         </div>
+
+        <div class="projects-container">
+            <div class="project-card" data-aos="fade-up">
+                <div class="project-image-wrapper">
+                    <img src="CE_Preview.png" alt="Car Evaluation" class="project-image" />
+                    <div class="project-overlay">
+                        <a href="https://colab.research.google.com/drive/1k-D84hVtximzMcT1FV70re7S425tIxoD?usp=sharing" target="_blank" rel="noopener noreferrer" class="project-link">Live Demo</a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <span class="project-tag"> Data Analysis</span>
+                    <h3>Car Evaluation</h3>
+                    <p>A Google Colab notebook for analyzing car evaluation metrics.</p>
+                    <div class="project-tech">
+                        <span class="tech-badge">Google Colab</span>
+                        <span class="tech-badge">Python</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://colab.research.google.com/drive/1k-D84hVtximzMcT1FV70re7S425tIxoD?usp=sharing" target="_blank" class="btn btn-primary">View Project</a>
+                        <a href="https://github.com/jaems483/Car-Evaluation" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i> Repository</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="project-image-wrapper">
+                    <img src="dashboard-preview.png" alt="UK Road Accident Analysis" class="project-image" />
+                    <div class="project-overlay">
+                        <a href="https://github.com/jaems483/UK-Road-Accident-Analysis-2017-/blob/main/dashboard-preview.png" target="_blank" rel="noopener noreferrer" class="project-link">Live Demo</a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <span class="project-tag"> Data Analysis</span>
+                    <h3>UK Road Accident Dashboard</h3>
+                    <p>An analysis of road accidents in the UK during 2017, visualized through interactive dashboards.</p>
+                    <div class="project-tech">
+                        <span class="tech-badge">Power BI</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://github.com/jaems483/UK-Road-Accident-Analysis-2017-/blob/main/dashboard-preview.png" target="_blank" class="btn btn-primary">View Project</a>
+                        <a href="https://github.com/jaems483/UK-Road-Accident-Analysis-2017-" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i> Repository</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="projects-container">
             <div class="project-card" data-aos="fade-up">
                 <div class="project-image-wrapper">
                     <img src="coop.png" alt="COOP Banking" class="project-image" />
                     <div class="project-overlay">
-                        <a href="https://jameskarlsilpao-coop.infinityfreeapp.com/?i=1" target="_blank" rel="noopener noreferrer" class="project-link">Live Demo</a>
+                        <a href="https://jameskarlsilpao-coop.infinityfreeapp.com/" target="_blank" rel="noopener noreferrer" class="project-link">Live Demo</a>
                     </div>
                 </div>
                 <div class="project-content">
-                    <span class="project-tag">First Project</span>
+                    <span class="project-tag">Web Development</span>
                     <h3>COOP Banking</h3>
                     <p>A web application designed to streamline banking operations, enhance customer experience, and provide secure financial services.</p>
                     <div class="project-tech">
@@ -78,31 +131,32 @@
                         <span class="tech-badge">Bootstrap</span>
                     </div>
                     <div class="project-actions">
-                        <a href="https://jameskarlsilpao-coop.infinityfreeapp.com/?i=1" target="_blank" class="btn btn-primary">View Project</a>
-                        <a href="https://github.com" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i> Repository</a>
+                        <a href="https://jameskarlsilpao-coop.infinityfreeapp.com/" target="_blank" class="btn btn-primary">View Project</a>
+                        <a href="https://github.com/jaems483" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i> Repository</a>
                     </div>
                 </div>
             </div>
 
             <div class="project-card" data-aos="fade-up" data-aos-delay="100">
                 <div class="project-image-wrapper">
-                    <img src="coop.png" alt="Key Borrowing System" class="project-image" />
+                    <img src="SMS_Preview.png" alt="Student Management System" class="project-image" />
                     <div class="project-overlay">
-                        <a href="#" target="_blank" rel="noopener noreferrer" class="project-link">Live Demo</a>
+                        <a href="https://jameskarlsilpao-sms.infinityfreeapp.com/" target="_blank" rel="noopener noreferrer" class="project-link">Live Demo</a>
                     </div>
                 </div>
                 <div class="project-content">
-                    <span class="project-tag">Second Project</span>
-                    <h3>Key Borrowing System</h3>
-                    <p>A web application designed to simplify the key borrowing process, improve inventory management, and enhance user experience.</p>
+                    <span class="project-tag">Web Development</span>
+                    <h3>Student Management System</h3>
+                    <p>A web application designed to simplify the student management process, improve record management, and enhance user experience.</p>
                     <div class="project-tech">
-                        <span class="tech-badge">React</span>
-                        <span class="tech-badge">Node.js</span>
-                        <span class="tech-badge">MongoDB</span>
+                        <span class="tech-badge">PHP</span>
+                        <span class="tech-badge">JS</span>
+                        <span class="tech-badge">CSS</span>
+                        <span class="tech-badge">XML</span>
                     </div>
                     <div class="project-actions">
-                        <a href="#" target="_blank" class="btn btn-primary">View Project</a>
-                        <a href="https://github.com" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i> Repository</a>
+                        <a href="https://jameskarlsilpao-sms.infinityfreeapp.com/" target="_blank" class="btn btn-primary">View Project</a>
+                        <a href="https://github.com/jaems483/WST2_FP" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i> Repository</a>
                     </div>
                 </div>
             </div>
@@ -166,11 +220,13 @@
                     <div class="skill-carousel-title">Analytics & Data</div>
                     <div class="skill-carousel-items">
                         <span class="skill-carousel-badge">Data Visualization</span>
-                        <span class="skill-carousel-badge">Excel, Power BI</span>
+                        <span class="skill-carousel-badge">Tableau, Power BI</span>
                         <span class="skill-carousel-badge">Data Cleaning</span>
-                        <span class="skill-carousel-badge">Python, SPSS</span>
+                        <span class="skill-carousel-badge">Excel, Python, SPSS</span>
                         <span class="skill-carousel-badge">Machine Learning</span>
-                        <span class="skill-carousel-badge">Orange</span>
+                        <span class="skill-carousel-badge">Scikit-Learn, Orange</span>
+                        <span class="skill-carousel-badge">Big-Data</span>
+                        <span class="skill-carousel-badge">DataBricks, PySpark</span>
                     </div>
                 </div>
             </div>
@@ -225,10 +281,10 @@
                 <div class="contact-social">
                     <h4>Connect With Me</h4>
                     <div class="social-icons">
-                        <a href="https://linkedin.com/in/james-karl-silpao-0346a3286/" target="_blank" rel="noopener noreferrer" class="social-btn">
+                        <a href="https://linkedin.com/in/jameskarlsilpao/" target="_blank" rel="noopener noreferrer" class="social-btn">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
-                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-btn">
+                        <a href="https://github.com/jaems483" target="_blank" rel="noopener noreferrer" class="social-btn">
                             <i class="fab fa-github"></i>
                         </a>
                     </div>
