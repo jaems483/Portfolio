@@ -46,7 +46,9 @@
                 <p style='background: var(--btn-bg); width: fit-content; color: var(--btn-text); padding: 10px 20px; border-radius: 8px;'>Hello There!</p>
                 <h1>I'm James Karl Silpao</h1>
                 <p>
-                A passionate web developer creating beautiful and functional websites and also a Business Analyst that loves turning data into actionable insights.
+                BSIT graduate and an aspiring Data and Business Analyst skilled in problem solving
+                and focused on bringing real business values, utilizing modern technologies and processes for
+                speed and accuracy.
                 </p>
                 <a class="btn" href="https://www.linkedin.com/in/jameskarlsilpao/" target="_blank" rel="noopener noreferrer" class="social-icon" title="LinkedIn">
                     <i class="fab fa-linkedin-in"></i>
@@ -65,7 +67,53 @@
     <section class="projects-section" id='projects-section' data-aos="fade-up">
         <div class="projects-header">
             <h2>Featured Projects</h2>
-            <p>Crafted solutions showcasing expertise in data analysis and modern web development</p>
+            <p>Crafted solutions showcasing expertise indata analysis and modern web development</p>
+        </div>
+
+        <div class="projects-container">
+            <div class="project-card" data-aos="fade-up">
+                <div class="project-image-wrapper">
+                    <img src="NGAS_Linear_Regression.png" alt="NGAS Price Contract" class="project-image" />
+                    <div class="project-overlay">
+                        <a href="https://colab.research.google.com/drive/1EVaX1LUlV9qYr6_ea3ZzUzIcRIif25z6?usp=sharing" target="_blank" rel="noopener noreferrer" class="project-link">Live Demo</a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <span class="project-tag">Data Analysis</span>
+                    <h3>NGAS Contract Evaluation</h3>
+                    <p>A Google Colab notebook for predicting future prices using SARIMA and Linear Regression, then calculating future contracts P&L.</p>
+                    <div class="project-tech">
+                        <span class="tech-badge">Google Colab</span>
+                        <span class="tech-badge">Python</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://colab.research.google.com/drive/1EVaX1LUlV9qYr6_ea3ZzUzIcRIif25z6?usp=sharing" target="_blank" class="btn btn-primary">View Project</a>
+                        <a href="https://github.com/jaems483/JPM_NGAS_CONTRACT_PRICING" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i> Repository</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="project-image-wrapper">
+                    <img src="loan-preview.png" alt="Loan Default Evaluation" class="project-image" />
+                    <div class="project-overlay">
+                        <a href="https://colab.research.google.com/drive/1wZ5faSjdxoU_fl1fIzvK_4jbjSbXW4xS?usp=sharing" target="_blank" rel="noopener noreferrer" class="project-link">Live Demo</a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <span class="project-tag">Data Analysis</span>
+                    <h3>Loan Default Evaluation</h3>
+                    <p>An analysis of Loan Defaults in reducing costs by reaching an accuracy of 99.81%.</p>
+                    <div class="project-tech">
+                        <span class="tech-badge">Google Colab</span>
+                        <span class="tech-badge">Python</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://colab.research.google.com/drive/1wZ5faSjdxoU_fl1fIzvK_4jbjSbXW4xS?usp=sharing" target="_blank" class="btn btn-primary">View Project</a>
+                        <a href="https://github.com/jaems483/Loan-Default-Evaluation" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i> Repository</a>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="projects-container">
@@ -77,9 +125,9 @@
                     </div>
                 </div>
                 <div class="project-content">
-                    <span class="project-tag"> Data Analysis</span>
+                    <span class="project-tag">Data Analysis</span>
                     <h3>Car Evaluation</h3>
-                    <p>A Google Colab notebook for analyzing car evaluation metrics.</p>
+                    <p>A Google Colab notebook for analyzing car evaluation metrics, achieving a model accuracy of 98.27%.</p>
                     <div class="project-tech">
                         <span class="tech-badge">Google Colab</span>
                         <span class="tech-badge">Python</span>
@@ -99,9 +147,9 @@
                     </div>
                 </div>
                 <div class="project-content">
-                    <span class="project-tag"> Data Analysis</span>
+                    <span class="project-tag">Data Visualization</span>
                     <h3>UK Road Accident Dashboard</h3>
-                    <p>An analysis of road accidents in the UK during 2017, visualized through interactive dashboards.</p>
+                    <p>An analysis of road accidents amounting to 4k data in the UK during 2017, visualized through interactive dashboards.</p>
                     <div class="project-tech">
                         <span class="tech-badge">Power BI</span>
                     </div>
@@ -128,6 +176,7 @@
                     <div class="project-tech">
                         <span class="tech-badge">PHP</span>
                         <span class="tech-badge">MySQL</span>
+                        <span class="tech-badge">CSS</span>
                         <span class="tech-badge">Bootstrap</span>
                     </div>
                     <div class="project-actions">
@@ -157,6 +206,50 @@
                     <div class="project-actions">
                         <a href="https://jameskarlsilpao-sms.infinityfreeapp.com/" target="_blank" class="btn btn-primary">View Project</a>
                         <a href="https://github.com/jaems483/WST2_FP" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i> Repository</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+                <div class="projects-container">
+            <div class="project-card" data-aos="fade-up">
+                <div class="project-image-wrapper">
+                    <img src="jakenpoy.png" alt="Jaken Poy" class="project-image" />
+                    <div class="project-overlay">
+                        <a href="https://github.com/jaems483/jakenpoy_java_app/blob/main/jakenpoy_img_1_sample.png" target="_blank" rel="noopener noreferrer" class="project-link">Live Demo</a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <span class="project-tag">Java Swing App</span>
+                    <h3>Rock Paper Scissors</h3>
+                    <p>An application designed to provide a fun and interactive way to play the classic game of Rock, Paper, Scissors.</p>
+                    <div class="project-tech">
+                        <span class="tech-badge">Java Swing</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://github.com/jaems483/jakenpoy_java_app/blob/main/jakenpoy_img_1_sample.png" target="_blank" class="btn btn-primary">View Project</a>
+                        <a href="https://github.com/jaems483/jakenpoy_java_app" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i> Repository</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="project-image-wrapper">
+                    <img src="words_and_numerals.png" alt="Number to Words & Roman Numerals" class="project-image" />
+                    <div class="project-overlay">
+                        <a href="https://github.com/jaems483/java_number_to_words_and_roman_numerals/blob/main/words_numerals_sample_2.png" target="_blank" rel="noopener noreferrer" class="project-link">Live Demo</a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <span class="project-tag">Java Swing App</span>
+                    <h3>Number to Words & Roman Numerals</h3>
+                    <p>An application designed to convert numbers into words and Roman numerals, providing a simple and efficient solution for number conversion using Java Swing.</p>
+                    <div class="project-tech">
+                        <span class="tech-badge">Java Swing</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://github.com/jaems483/java_number_to_words_and_roman_numerals/blob/main/words_numerals_sample_2.png" target="_blank" class="btn btn-primary">View Project</a>
+                        <a href="https://github.com/jaems483/java_number_to_words_and_roman_numerals" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i> Repository</a>
                     </div>
                 </div>
             </div>
